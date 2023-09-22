@@ -1,9 +1,8 @@
 public class Main
 {
-public static void main(String[] args)
-{
-int v = 45, t = 2, S;
-S = v * t;
-System.out.println("Остановился на отметке в "+S+" километров");
-}
+	public static void main(String[] args) 
+	{
+		int v = 45, t = 2;
+		System.out.println("Остановился на отметке в "+v * t+" километров");
+	}
 }
